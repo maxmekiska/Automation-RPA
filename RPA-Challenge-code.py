@@ -1,10 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Thu Apr  9 22:20:06 2020
-
-@author: Max
-"""
-
 import pandas as pd
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
@@ -25,8 +19,6 @@ def open_browser():
     driver.get('http://www.rpachallenge.com/')
 
 
-
-# start the challenge baby!!!
 def start_challenge():
     initiate = driver.find_element_by_xpath("//button[@class='waves-effect col s12 m12 l12 btn-large uiColorButton']")
     initiate.click()
