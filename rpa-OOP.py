@@ -29,7 +29,7 @@ class AutoFill:
 
 
 def main():
-    Test = AutoFill('Data.xlsx')
+    Test = AutoFill('data/Data.xlsx')
     Test.fill_form()
 
 
